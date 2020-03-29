@@ -1,0 +1,99 @@
+main{
+    margin: auto;
+}
+
+main{
+    overflow: hidden;
+}
+
+div, header, footer, aside{
+    float: left;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    line-height: 75px;
+}
+
+aside {
+    text-align: center;
+    line-height: 150px;
+}
+.upper_half_squre {
+    text-align: center;
+    line-height: 125px;
+}
+
+.middle_half_squer {
+    text-align: center;
+    line-height: 250px;
+}
+
+footer {
+    text-align: center;
+    line-height: 80px;
+}
+
+
+@media screen and (max-width: 960px){
+    main{
+        width: 480px;
+           }
+           header{
+               height: 75px;
+                }
+                aside{
+                    height: 150px;
+                }
+                footer{
+                    height: 80px;
+                }
+                .upper_half_squre{
+                    height: 125px;
+                }
+                .middle_half_squer{
+                    height: 250px;
+                    width: 240px;
+                }
+
+
+                footer {
+                    line-height: 70px;
+                }
+
+            }
+
+@media screen and (min-width: 960px){
+    main{
+        width: 960px;
+           }
+           header{
+               height: 100px;
+                }
+                aside{
+                    height: 600px;
+                    width: 200px;
+                }
+                footer{
+                    height: 150px;
+                    width: 760px;
+                }
+                .upper_half_squre{
+                    height: 200px;
+                    width: 380px;
+                }
+                .middle_half_squer{
+                    height: 250px;
+                    width: 190px;
+                }
+
+
+
+                aside {
+                    line-height: 600px;
+                }
+
+            }
+
+            
