@@ -1,4 +1,28 @@
 *{
     box-sizing: border-box;
 }
+main {
+    width: 480px;
+    margin: auto;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px){
+
+    main {
+        width: 960px;
+        display: grid;
+        grid-template-columns: 200px repeat(4, 190px);
+        grid-template-rows: 100px 200px 250px 150px;
+    }
+
+}
+@media (min-width: 960px){
+    main {
+        width: 960px;
+        margin: auto;
+    }
+}
 

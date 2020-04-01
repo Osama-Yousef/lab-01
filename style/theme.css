@@ -1,34 +1,35 @@
-div, header, aside, footer{
-    background-color: rgb(184, 184, 184);
-    border: 1px solid black;
+main {
+    text-align: center;
 }
-@media screen and (max-width: 960px){
-    footer{
-        border-top: none ;
+
+
+header{
+    padding: 33px 0;
+}
+aside{
+    padding: 70px 0;
+}
+.c, .d{
+    padding: 55px 0;
+}
+.e , .f, .g, .h{
+    padding: 120px 0;
+}
+footer{
+    padding: 30px 0;
+}
+
+@media(min-width: 768px) {
+    header{
+        padding: 38px 0;
     }
     aside{
-        border-top: none ;
+        padding: 270px 0;
     }
-    .upper_half_squre, .middle_half_squer{
-        border-top: none ;
+    .c, .d {
+        padding: 95px 0;
     }
-    .middle_half_squer:nth-of-type(even){
-        border-left: none ;
-
-    }
-
-}
-@media screen and (min-width: 960px){
     footer{
-        border-top: none ;
-        border-left: none;
-    }
-    aside{
-        border-top: none ;
-    }
-    div{
-        border-top: none ;
-        border-left: none;
-    }
-    
+        padding: 65px 0;
+    }  
 }
